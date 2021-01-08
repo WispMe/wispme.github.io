@@ -20,7 +20,7 @@ export default class Work extends Component {
                                     <div className="work-img">
                                         <img src={work.img} width="300"/>
                                         <div className="middle">
-                                            <div className="text"><a>{work.name}</a></div>
+                                            <div className="text"><a href={work.link}>{work.name}</a></div>
                                         </div>
                                     </div>
                                 </div>

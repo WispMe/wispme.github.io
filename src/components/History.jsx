@@ -22,7 +22,7 @@ export default class History extends Component {
                                 <h2>Education</h2>
                                 <br></br>
                                 <div className="education">
-                                    <div className="history-border row">
+                                    {/* <div className="history-border row">
                                         <div className="col-md-4 d-flex align-items-center justify-content-around img">
                                             <img src={sd} alt="SDN 1" width="70" height="80"/>
                                         </div>
@@ -42,8 +42,8 @@ export default class History extends Component {
                                             <p>2010 - 2013</p>
                                         </div>
 
-                                    </div>
-                                    <div className="line"></div>
+                                    </div> */}
+                                    {/* <div className="line"></div> */}
                                     <div className="history-border row">
                                         <div className="col-md-4 d-flex align-items-center justify-content-around img">
                                             <img src={sma} alt="SMAN 5" width="80" height="80" style={{zIndex: '-1'}}/>
@@ -62,6 +62,17 @@ export default class History extends Component {
                                         <div className="col-md-7 d-flex align-items-center flex-column justify-content-around">
                                             <p style={{textAlign: "center", lineHeight: '20px'}}>Telkom University</p>
                                             <p>2016 - 2020</p>
+                                        </div>
+
+                                    </div>
+                                    <div className="line"></div>
+                                    <div className="history-border row">
+                                        <div className="col-md-4 d-flex align-items-center justify-content-around img">
+                                            <img src={kodingnext} alt="Koding Next" width="90" height="90" style={{zIndex: '-1'}}/>
+                                        </div>
+                                        <div className="col-md-7 d-flex align-items-center flex-column justify-content-around">
+                                            <p style={{textAlign: "center", lineHeight: '20px'}}>Bootcamp at Koding Next</p>
+                                            <p>2020</p>
                                         </div>
 
                                     </div>
@@ -89,17 +100,6 @@ export default class History extends Component {
                                         </div>
                                         <div className="col-md-4 d-flex align-items-center justify-content-around img">
                                             <img src={telkomindonesia} alt="Telkom Indonesia" width="100" height="100" style={{zIndex: '-1'}}/>
-                                        </div>
-
-                                    </div>
-                                    <div className="line"></div>
-                                    <div className="history-border row">
-                                        <div className="col-md-7 d-flex align-items-center flex-column justify-content-around">
-                                            <p style={{textAlign: "center", lineHeight: '20px'}}>Bootcamp at Koding Next</p>
-                                            <p>2020</p>
-                                        </div>
-                                        <div className="col-md-4 d-flex align-items-center justify-content-around img">
-                                            <img src={kodingnext} alt="Koding Next" width="100" height="100" style={{zIndex: '-1'}}/>
                                         </div>
 
                                     </div>

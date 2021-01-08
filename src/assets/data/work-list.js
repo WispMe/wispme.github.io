@@ -12,30 +12,37 @@ export default [
     {
         name: "Book Code",
         img: bookcode,
+        link: "https://github.com/WispMe/Book_Code"
     },
     {
         name: "Simple Client Server PHP",
         img: cs,
+        link: "https://github.com/WispMe/cs"
     },
     {
         name: "Simple fuzzy logic",
         img: fuzzy,
+        link: "https://github.com/WispMe/WashingMachineFuzzy"
     },
     {
         name: "Sentiment Analysis for E-Commerce App",
-        img: sa
+        img: sa,
+        link: "https://github.com/WispMe"
     },
     {
         name: "Conway's Game of Life",
-        img: conway
+        img: conway,
+        link: "https://github.com/WispMe/Conway_Game_of_Life"
     },
     {
         name: "Simple Animated Banner",
-        img: animatedbanner
+        img: animatedbanner,
+        link: "https://github.com/WispMe/animated-banner"
     },
     {
         name: "Furry Game",
-        img: furrygame
+        img: furrygame,
+        link: "https://github.com/WispMe/FurryGame"
     }
 
     
