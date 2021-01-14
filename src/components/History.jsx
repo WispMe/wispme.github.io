@@ -3,6 +3,7 @@ import sd from '../assets/img/sd.png'
 import smp from '../assets/img/smp.png'
 import telu from '../assets/img/telu.png'
 import sma from '../assets/img/sma.jpeg'
+import cl2 from '../assets/img/cl2.png'
 import aptrg from '../assets/img/aptrg.jpeg'
 import telkomindonesia from '../assets/img/telkomindonesia.png'
 import kodingnext from '../assets/img/kodingnext.png'
@@ -60,6 +61,7 @@ export default class History extends Component {
                                             <img src={telu} alt="Tel-U" width="90" height="90" style={{zIndex: '-1'}}/>
                                         </div>
                                         <div className="col-md-7 d-flex align-items-center flex-column justify-content-around">
+                                            <p style={{textAlign: "center", lineHeight: '20px'}}>Bachelor of Computer Engineering</p>
                                             <p style={{textAlign: "center", lineHeight: '20px'}}>Telkom University</p>
                                             <p>2016 - 2020</p>
                                         </div>
@@ -68,10 +70,11 @@ export default class History extends Component {
                                     <div className="line"></div>
                                     <div className="history-border row">
                                         <div className="col-md-4 d-flex align-items-center justify-content-around img">
-                                            <img src={kodingnext} alt="Koding Next" width="90" height="90" style={{zIndex: '-1'}}/>
+                                            <img src={cl2} alt="Koding Next" width="90" height="90" style={{zIndex: '-1'}}/>
                                         </div>
                                         <div className="col-md-7 d-flex align-items-center flex-column justify-content-around">
-                                            <p style={{textAlign: "center", lineHeight: '20px'}}>Bootcamp at Koding Next</p>
+                                            <p style={{textAlign: "center", lineHeight: '20px'}}>Front-end JavaScript with ReactJs Full-time Bootcamp</p>
+                                            <p style={{textAlign: "center", lineHeight: '20px'}}>CodersLab Indonesia</p>
                                             <p>2020</p>
                                         </div>
 

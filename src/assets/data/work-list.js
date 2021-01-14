@@ -15,7 +15,7 @@ export default [
         link: "https://github.com/WispMe/Book_Code"
     },
     {
-        name: "Simple Client Server PHP",
+        name: "Network Management System",
         img: cs,
         link: "https://github.com/WispMe/cs"
     },

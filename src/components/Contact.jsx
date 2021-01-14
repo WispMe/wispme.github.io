@@ -19,7 +19,7 @@ export default class Contact extends Component {
                         <h1 style={{textDecoration: 'underline'}}><a href="mailto:faizfak@gmail.com">faizfak@gmail.com</a></h1>
                         <div className="d-flex justify-content-center align-items-center">
                             <div className="contact-content"><a href="https://www.instagram.com/_wispme/"><img src={ig} alt="Instagram" width="28" height="28" /></a></div>
-                            <div className="contact-content"><a href="https://www.linkedin.com/in/wispme"><img src={linkedin} alt="LinkedIn" width="28" height="28" /></a></div>
+                            <div className="contact-content"><a href="https://www.linkedin.com/in/faizadilkhatami"><img src={linkedin} alt="LinkedIn" width="28" height="28" /></a></div>
                             <div className="contact-content"><a href="https://twitter.com/WispMe_"><img src={twitter} alt="Twitter" width="28" height="28" /></a></div>
                             <div className="contact-content"><a href="https://steamcommunity.com/id/faizfak/"><img src={steam} alt="Steam" width="28" height="28" /></a></div>
                             <div className="contact-content"><a href="https://github.com/WispMe/"><img src={github} alt="Github" width="28" height="28" /></a></div>
