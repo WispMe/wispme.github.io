@@ -16,13 +16,14 @@ import workList from './assets/data/work-list'
 
 
 function App() {
+  console.log("v.1.0.0")
   return (
     <>
       <NavBar />
       <Intro />
       <About />
       <History />
-      <Work data={workList}/>
+      <Work data={workList} />
       <Skills data={skillsList} />
       <Contact />
       <Footer />
