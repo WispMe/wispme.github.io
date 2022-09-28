@@ -19,14 +19,14 @@ function App() {
   console.log("v.1.0.0")
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <Intro />
-      <About />
+      {/* <About />
       <History />
       <Work data={workList} />
       <Skills data={skillsList} />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
